@@ -30,5 +30,13 @@ monitors:
     url: 'https://synology.whrblog.online:5001'
     method: PING
     expectStatus: 200
+    linkable: false # allows the title to be a link, default=true  
+  
+  - id: Network Service
+    name: 🚀
+    description: 'unlimited'
+    url: 'https://sdr.rec709.cf'
+    method: GET
+    expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
