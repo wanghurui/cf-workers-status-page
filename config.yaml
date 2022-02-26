@@ -21,20 +21,20 @@ monitors:
     url: 'https://whrblog.online' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: Synology Nas
+  - id: synology_nas
     name: 💾
     description: 'Synology'
     url: 'https://synology.whrblog.online:5001'
-    method: PING
+    method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true  
   
-  - id: Network Service
+  - id: network_service
     name: 🚀
-    description: 'pass * wall'
+    description: 'CloudCone VPS'
     url: 'https://sdr.rec709.cf'
     method: GET
     expectStatus: 200
