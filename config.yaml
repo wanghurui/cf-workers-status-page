@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: whrblog_online # unique identifier
-    name: Hello Traveler 🗺
+    name: 🗺
     description: 'Sometimes ever, sometimes never' # default=empty
     url: 'https://whrblog.online' # URL to fetch
     method: GET # default=GET
@@ -25,8 +25,8 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Synology Nas
-    name: Synology Nas 💾
-    description: ''
+    name: 💾
+    description: 'Synology'
     url: 'https://synology.whrblog.online:5001'
     method: PING
     expectStatus: 200
@@ -34,7 +34,7 @@ monitors:
   
   - id: Network Service
     name: 🚀
-    description: 'unlimited'
+    description: 'pass * wall'
     url: 'https://sdr.rec709.cf'
     method: GET
     expectStatus: 200
