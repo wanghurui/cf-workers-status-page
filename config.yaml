@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: 'Uptime Bot'
+  url: 'https://uptime_bot-production.100srgb.workers.dev/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: whrblog_online # unique identifier
-    name: Hello Traveler
+    name: Hello Traveler 🗺
     description: 'Sometimes ever, sometimes never' # default=empty
     url: 'https://whrblog.online' # URL to fetch
     method: GET # default=GET
@@ -25,10 +25,10 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: Synology Nas
-    name: synology.whrblog.online
+    name: Synology Nas 💾
     description: ''
     url: 'https://synology.whrblog.online:5001'
-    method: GET
+    method: PING
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
