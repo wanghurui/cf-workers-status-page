@@ -24,13 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: synology_nas
-    name: 💾
-    description: 'Synology'
-    url: 'https://synology.whrblog.online:5001'
-    method: GET
-    expectStatus: 200
-    linkable: false # allows the title to be a link, default=true  
+
   
   - id: network_service
     name: 🚀
